@@ -1,0 +1,15 @@
+name: PocketAnvil
+main: com.sinndevelopment.pocketanvil.PocketAnvil
+version: 1.8.3
+author: Sinn Development
+commands:
+    anvil:
+        description: Open an anvil wherever you are!
+        usage: /<command>
+        permission: pocketanvil.use
+        permission-message: You do not have permission
+        aliases: [anvil,po,anv]
+permissions:
+    pocketanvil.use:
+        default: op
+        description: Allows use of /anvil
