@@ -38,5 +38,17 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+  <repository>
+     <id>sinndev-repo</id>
+     <name>Releases</name>
+     <url>http://nexus.sinndevelopment.com:8081/nexus/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+     <id>sinndev-repo</id>
+     <name>Snapshots</name>
+     <url>http://nexus.sinndevelopment.com:8081/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 
 </project>
